@@ -1,0 +1,111 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --bg-color: #dae1f0;
+    --txt-color: #070BF6;
+    --azalea: #f1b7de;
+    --rose: #f367a4;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: var(--txt-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+    font-size: 1.75rem;
+
+    border-style: solid;
+    border-width: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.625rem;
+    color: var(--rose);
+    font-weight: 700;
+    line-height: 1.1;
+
+    border-style: solid;
+    border-width: 2px;
+}
+  
+
+h1 {
+    font-size: 4rem;
+}
+  
+h2 {
+    font-size: 3.5rem;
+}
+  
+h3 {
+    font-size: 3rem;
+}
+  
+h4 {
+    font-size: 2.5rem;
+}
+  
+h5 {
+    font-size: 2rem;
+}
+  
+h6 {
+    font-size: 1.5rem;
+}
+  
+p {
+    margin-bottom: 1rem;
+  }
+
+header {
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1em;
+    color: #009;
+    background-color: var(--);
+    margin-bottom: .3em;
+    text-decoration: underline;
+}
+
+.left-header {
+    
+}
+
+.nav-links {
+    display:flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    align-items:flex-end;
+}
+/* background img sourced from https://unsplash.com */
+.hero {
+    display:flex;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portrait {
+    align-self: start;
+    border-radius: 100px;
+}
