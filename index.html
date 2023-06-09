@@ -8,17 +8,62 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio | Yoon-Jae Kim</title>
 </head>
-<body class="bg-color">
+<!-- Include: Name, Photo, Links, Experience, and Contact Info -->
+<body>
     <header>
-        <h1 class="page-title">Yoon-Jae Kim</h1>
+        <!-- Name in header -->
+        <div class="left-header">
+            <h1 class="page-title">Yoon-Jae Kim</h1>
+            <p>Developer, Artist, and a Third Thing</p>
+        </div>
+        <div class="right-header">
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="#projects">Projects</a>
+                </li>            
+                <li class="nav-item">
+                    <a href="#about-me">About Me</a>
+                </li>                    
+                <li class="nav-item">
+                    <a href="#contact-me">Contact Me</a>
+                </li>    
+            </ul>
+        </div>
     </header>
-    <nav class="nav-top">
-        <ul class="nav-links">
-            <li class="nav-item"></li>            
-            <li class="nav-item"></li>
-            <li class="nav-item"></li>
-        </ul>
+    <nav class="hero">
+        <img class="portrait" src="./assets/images/portrait.jpg" alt="Portrait of Yoon-Jae Kim">
     </nav>
+    <main id="projects">
+        <section class="row justify-center">
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Rock, Paper, Scissors</h2>
+                <div class="card-body">
+                  <p>A simple RPS game built using JS.</p>
+                  <!-- img sourced from https://www.pexels.com -->
+                  <!-- <img class="fit-picture" src="./assets/images/rps.jpg" alt="Three kids playing Rock Paper Scissors"> -->
+                </div>
+                <h2 class="card-header">Landing Page</h2>
+                <div class="card-body">
+                  <p>A basic landing page built using various CSS techniques.</p>
+                  <!-- img sourced from https://www.pexels.com -->
+                  <!-- <img class="fit-picture" src="./assets/images/rps.jpg" alt="Three kids playing Rock Paper Scissors"> -->
+                </div>
+                <h2 class="card-header">CSS Cheatsheet</h2>
+                <div class="card-body">
+                  <p>A simple RPS game built using JS.</p>
+                  <!-- img sourced from https://www.pexels.com -->
+                  <!-- <img class="fit-picture" src="./assets/images/rps.jpg" alt="Three kids playing Rock Paper Scissors"> -->
+                </div>
+                <h2 class="card-header">Prework Study Guide</h2>
+                <div class="card-body">
+                  <p>A simple RPS game built using JS.</p>
+                  <!-- img sourced from https://www.pexels.com -->
+                  <!-- <img class="fit-picture" src="./assets/images/rps.jpg" alt="Three kids playing Rock Paper Scissors"> -->
+                </div>
+
+    </main>
+
     <section class="">
 
     </section>
@@ -26,7 +71,18 @@
 
     </aside>
     <footer>
-
+        <h5 id="contact-me">Contact Me</h4>
+        <ul>
+            <li class="contact-item">
+                <a href="yoonjaekim3@gmail.com">Email</a>
+            </li>            
+            <li class="contact-item">
+                <a href="https://www.linkedin.com/in/yoon-jae-kim/">LinkedIn</a>
+            </li>                    
+            <li class="contact-item">
+                <a href="https://github.com/Yoonbacca">Github</a>
+            </li>    
+        </ul>
     </footer>
 </body>
 </html>
