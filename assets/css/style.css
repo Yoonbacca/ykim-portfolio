@@ -146,7 +146,7 @@ header {
 .right-hero {
     display:flex;
     justify-content: center;
-    width:50%;
+    width: 50%;
 }
 
 .portrait {
@@ -154,15 +154,43 @@ header {
     border-radius: 100px;
 }
 
+/*MAIN*/
+
+#projects {
+    display: flex;
+    margin: 1rem;
+}
+
+.top-row{
+
+}
+
+.card {
+    display: flex;
+}
+
+
+.card-header {
+    position: relative;
+    top: -4rem;
+    left: 0px;
+}
+
+.card-header p {
+    font-size: 16px;
+}
 /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-.card-column {
+.left-row {
     flex: 1 0 100%;
     padding: 1.5rem;
     /* when the screen resizes, make it so our columns don't jump in size */
-    transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
+
 
 .fit-picture {
     width: 700px;
 }
+
+
+
