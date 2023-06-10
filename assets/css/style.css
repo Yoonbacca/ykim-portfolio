@@ -46,33 +46,30 @@ h6 {
   
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style:italic;
     text-decoration: underline;
 }
   
 h2 {
-    font-size: 2.5rem;
-}
-  
-h3 {
     font-size: 2rem;
 }
   
-h4 {
+h3 {
     font-size: 1.5rem;
 }
   
-h5 {
+h4 {
     font-size: 1rem;
 }
   
-h6 {
+h5 {
     font-size: 0.5rem;
 }
   
 p {
     margin-bottom: 0.5rem;
+    font-size: 1.15rem;
   }
 
 /* HEADER */
@@ -159,17 +156,15 @@ header {
 
 /* MAIN */
 
-.container { 
-    position: relative;
-    text-align: center; 
-    color: white; 
-} /* Bottom left text */ 
-
-
 .container {
     position: relative;
     text-align: left;
     color: var(--bg-color);
+
+}
+
+.container img {
+    border-radius: 10px;
 }
 
 .top-left { 
@@ -177,6 +172,16 @@ header {
     top: 8px; 
     left: 16px; 
 } 
+
+.container:hover .top-left{
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    border-radius:10px;
+    padding: 3px;
+    margin: 3px;
+    box-shadow: 0 0 3px 5px var(--bg-color);
+    
+}
 
 #projects {
     margin: 1rem;
@@ -188,3 +193,48 @@ header {
     grid-template-columns: auto auto;
 }
 
+
+
+/* FOOTER */
+#contact-me {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+#contact-me h4 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.contact-links {
+    display:flex;
+    align-items: center;
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+.contact-item {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-container {
+        grid-template-columns: auto;
+    }
+
+    #contact-me h4 {
+        font-size: 2rem;
+    }    
+
+    .contact-links {
+        display:flex;
+        align-items: center;
+        color: var(--bg-color);
+        font-size: 1rem;
+        padding-right: 0.5rem;
+    }
+    
+}
