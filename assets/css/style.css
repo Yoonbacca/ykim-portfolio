@@ -95,7 +95,7 @@ header {
 
 .right-header {
     display:flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .nav-links {
@@ -204,8 +204,9 @@ header {
 
 
 #contact-me h4 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin-bottom: 0px;
+    padding-left: 0.5rem;
 }
 
 .contact-links {
