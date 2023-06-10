@@ -91,6 +91,8 @@ header {
     top:0;
     left:0;
     width:100%;
+    /* Sets nav bar to top layer of website */
+    z-index: 9999;
 
 }
 
@@ -154,43 +156,35 @@ header {
     border-radius: 100px;
 }
 
-/*MAIN*/
+
+/* MAIN */
+
+.container { 
+    position: relative;
+    text-align: center; 
+    color: white; 
+} /* Bottom left text */ 
+
+
+.container {
+    position: relative;
+    text-align: left;
+    color: var(--bg-color);
+}
+
+.top-left { 
+    position: absolute; 
+    top: 8px; 
+    left: 16px; 
+} 
 
 #projects {
-    display: flex;
     margin: 1rem;
 }
 
-.top-row{
-
+/* Using Grid for the second container */
+.bottom-container {
+    display: grid;
+    grid-template-columns: auto auto;
 }
-
-.card {
-    display: flex;
-}
-
-
-.card-header {
-    position: relative;
-    top: -4rem;
-    left: 0px;
-}
-
-.card-header p {
-    font-size: 16px;
-}
-/* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-.left-row {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
-    margin-bottom: 1.5rem;
-}
-
-
-.fit-picture {
-    width: 700px;
-}
-
-
 
