@@ -16,20 +16,26 @@ const Home = () => {
                 I'm a
                 <TypeAnimation
                 sequence={[
-                    // Same substring at the start will only be typed out once, initially
                     'Developer',
-                    2000, // wait 1s before replacing "Mice" with "Hamsters"
+                    2000, // wait 2s before next string
                     'Coder',
                     2000,
                     'Technical Account Manager',
                     2000,
                     'Product Specialist',
                     2000,
-                    'Artist',
+                    'Communicator',
+                    2000,
+                    'Husband',
+                    2000,
+                    'Student',
+                    2000,
+                    'Teacher',
+                    2000,
+                    'Home Owner',
                     2000,
                     'Gamer',
                     2000,
-
                 ]}
                 wrapper="span"
                 speed={50}
