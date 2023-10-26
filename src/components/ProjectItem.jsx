@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const ProjectItem = ({img, title, link, repo}) => {
     return (
         <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
@@ -10,9 +9,9 @@ const ProjectItem = ({img, title, link, repo}) => {
                     {title}
                 </h3>
                 <p className='pb-4 pt-2 text-white text-center'></p>
-                <a href={link} target="_blank">
+                {link ? (<a href={link} target="_blank">
                     <p className='text-center p-3 rounded-ld bg-gray-800 text-white font-bold cursor-pointer text-lg hover:opacity-10'>Deployment</p>
-                </a>
+                </a>) : ('')}
                 <a href={repo} target="_blank">
                     <p className='text-center p-3 rounded-ld bg-white text-gray-8700 font-bold cursor-pointer text-lg hover:opacity-10'>Repo</p>
                 </a>

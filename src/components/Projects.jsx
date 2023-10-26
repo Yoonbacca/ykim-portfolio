@@ -5,6 +5,7 @@ import techBlogImage from '../assets/tech-blog.png';
 import noteTakerImage from '../assets/note-taker.png';
 import readmeCreatorImage from '../assets/readme-creator.png';
 import weatherAppImage from '../assets/weather-app.png';
+import portfolioImage from '../assets/portfolio.png';
 
 const links = [
     {
@@ -26,16 +27,20 @@ const links = [
         repo: ''
     },
     {
-        img: readmeCreatorImage,
-        title: 'CLI README Generator',
-        link: 'https://github.com/Yoonbacca/readme-creator',
-        repo: 'https://github.com/Yoonbacca/readme-creator'
-    },
-    {
         img: weatherAppImage,
         title: 'Weather App',
         link: 'https://yoonbacca.github.io/weather-dashboard/',
         repo: 'https://github.com/Yoonbacca/weather-dashboard'
+    },
+    {
+        img: readmeCreatorImage,
+        title: 'CLI README Generator',
+        repo: 'https://github.com/Yoonbacca/readme-creator'
+    },
+    {
+        img: portfolioImage,
+        title: 'This Portfolio',
+        repo: 'https://github.com/Yoonbacca/ykim-portfolio'
     }
 ]
 
@@ -44,7 +49,7 @@ const Projects = () => {
         <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
             <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
             <p className='text-center py-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                A catalog of a my notable projects. A link to the deployed application and the repository are provided for each project.
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
             {links.map((item, idx) => (
