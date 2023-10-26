@@ -49,7 +49,7 @@ const Projects = () => {
         <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
             <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
             <p className='text-center py-8'>
-                A catalog of a my notable projects. A link to the deployed application and the repository are provided for each project.
+                A catalog of my notable projects. A link to the deployed application and the repository are provided for each project.
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
             {links.map((item, idx) => (
