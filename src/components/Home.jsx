@@ -4,7 +4,8 @@ import { FaGithub, FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div id="main">
+    <header>
+    <div id="home">
       <img
         className="w-full h-screen object-cover object-left scale-x"
         src="https://images.unsplash.com/photo-1634544353496-140f580743ed?auto=format&fit=crop&q=80&w=987&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -56,19 +57,20 @@ const Home = () => {
               <FaLinkedinIn className="cursor-pointer" size={20} />
             </a>
             <a
-              href="https://www.instagram.com/yoonbacca/"
+              href="https://www.facebook.com/Yoonbacca/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook className="cursor-pointer" size={20} />
             </a>
-            <a href="https://www.facebook.com/Yoonbacca/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/yoonbacca/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="cursor-pointer" size={20} />
             </a>
           </div>
         </div>
       </div>
     </div>
+    </header>
   );
 };
 
