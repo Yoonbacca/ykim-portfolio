@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Sidenav from './components/Sidenav';
 import Home from './components/Home';
 import Work from './components/Work';
+import Projects from './components/Projects';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
       <Sidenav />
       <Home />
       <Work />
+      <Projects />
     </div>
   );
 }
