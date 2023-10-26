@@ -23,7 +23,9 @@ This portfolio offers straightforward and dynamic navigation:
 
 - Clicking on navigation links loads the corresponding sections seamlessly.
 
+### Mobile Nav
 
+- A hamburger icon will appear on the top right of the page once the mobile breakpoint is reached on the browser window. Clicking this will pull up all the options from the side nav.
 
 ## Portfolio Sections
 
