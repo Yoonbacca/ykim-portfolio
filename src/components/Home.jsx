@@ -12,31 +12,43 @@ const Home = () => {
       ></img>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Yoon-Jae Kim</h1>
+          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">Yoon-Jae Kim</h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
             I'm a
             <TypeAnimation
               sequence={[
-                'Developer',
+                'Skilled Developer',
                 2000, // wait 2s before next string
-                'Coder',
+                'Coder Extraordinaire',
                 2000,
-                'Technical Account Manager',
+                'Former Technical Account Manager',
                 2000,
-                'Product Specialist',
+                'Former Product Specialist',
                 2000,
-                'Communicator',
+                'Effervescent Communicator',
                 2000,
-                'Husband',
+                'Highly-Rated Husband',
                 2000,
-                'Student',
+                'Student of Life',
                 2000,
-                'Teacher',
+                'Sensei of the Web',
                 2000,
-                'Home Owner',
+                'Home Chef',
                 2000,
-                'Gamer',
-                2000
+                'Proud Dog Dad',
+                2000,
+                'Killer of Plants',
+                2000,
+                'Professional Wrestling Fan',
+                2000,
+                'Cross-stitcher',
+                2000,
+                'Lifter of Moderately Weights',
+                2000,
+                'Esposo de una Latina',
+                2000,
+                'Cat Dad',
+                2000,
               ]}
               wrapper="span"
               speed={50}
