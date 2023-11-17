@@ -24,7 +24,7 @@ const links = [
         img: noteTakerImage,
         title: 'Note Taker App',
         link: 'https://floating-anchorage-56438-3fd8267d65f7.herokuapp.com/',
-        repo: ''
+        repo: 'https://github.com/Yoonbacca/note-taker'
     },
     {
         img: weatherAppImage,
