@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import jateImage from '../assets/jate.png';
-import techBlogImage from '../assets/tech-blog.png';
+import coursePlannerImage from '../assets/course-planner.png';
 import noteTakerImage from '../assets/note-taker.png';
 import readmeCreatorImage from '../assets/readme-creator.png';
 import weatherAppImage from '../assets/weather-app.png';
@@ -15,10 +15,10 @@ const links = [
         repo: 'https://github.com/Yoonbacca/pwa-text-editor'
     },
     {
-        img: techBlogImage,
-        title: 'Fullstack Tech Blog App',
-        link: 'https://damp-forest-37399-35c30431bcb5.herokuapp.com/',
-        repo: 'https://github.com/Yoonbacca/tech-blog'
+        img: coursePlannerImage,
+        title: 'MERN Course Planner App',
+        link: 'https://lit-river-19263-fccc9a14fadb.herokuapp.com/',
+        repo: 'https://github.com/bklein1981/Course-Planner'
     },
     {
         img: noteTakerImage,
