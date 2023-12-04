@@ -37,7 +37,7 @@ const Sidenav = () => {
             <span className="pl-4">Projects</span>
           </a>
           <a onClick={handleNav}
-            href="https://drive.google.com/file/d/1oQrUmriye3F3lQ59EnT9cImLHsFm9qsY/view?usp=sharing"
+            href="https://docs.google.com/document/d/1Hg9GnTxxaivLuwyRfBuwhu2ZCeW0VXrY/edit?usp=sharing&ouid=117092877009325743012&rtpof=true&sd=true"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             target="_blank"
           >
@@ -76,7 +76,7 @@ const Sidenav = () => {
             <AiOutlineProject size={20} />
           </a>
           <a
-            href="https://drive.google.com/file/d/1oQrUmriye3F3lQ59EnT9cImLHsFm9qsY/view?usp=sharing"
+            href="https://docs.google.com/document/d/1Hg9GnTxxaivLuwyRfBuwhu2ZCeW0VXrY/edit?usp=sharing&ouid=117092877009325743012&rtpof=true&sd=true"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             target="_blank"
           >
